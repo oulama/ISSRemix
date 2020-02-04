@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2482DAD23E2D22B009CD5D0 /* ISSLiveLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2482DAC23E2D22B009CD5D0 /* ISSLiveLocationViewController.swift */; };
 		D24AC79B23DEEA2100154B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC79A23DEEA2100154B20 /* AppDelegate.swift */; };
 		D24AC79D23DEEA2100154B20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC79C23DEEA2100154B20 /* SceneDelegate.swift */; };
-		D24AC79F23DEEA2100154B20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC79E23DEEA2100154B20 /* ViewController.swift */; };
-		D24AC7A223DEEA2100154B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24AC7A023DEEA2100154B20 /* Main.storyboard */; };
 		D24AC7A423DEEA2300154B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24AC7A323DEEA2300154B20 /* Assets.xcassets */; };
 		D24AC7A723DEEA2300154B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24AC7A523DEEA2300154B20 /* LaunchScreen.storyboard */; };
 		D24AC7B223DEEA2300154B20 /* ISSRemixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7B123DEEA2300154B20 /* ISSRemixTests.swift */; };
+		D24AC7BD23DEEA8B00154B20 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7BC23DEEA8B00154B20 /* AppCoordinator.swift */; };
+		D24AC7C923DEEDCF00154B20 /* LiveLocationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7C823DEEDCF00154B20 /* LiveLocationCoordinator.swift */; };
+		D24AC7CB23DEF57F00154B20 /* LiveLocationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7CA23DEF57F00154B20 /* LiveLocationInteractor.swift */; };
+		D24AC7CE23DEF71D00154B20 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7CD23DEF71D00154B20 /* Network.swift */; };
+		D24AC7D123DEF74F00154B20 /* ISSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7D023DEF74F00154B20 /* ISSAPI.swift */; };
+		D24AC7D323DEF83900154B20 /* LiveLocationFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7D223DEF83900154B20 /* LiveLocationFeature.swift */; };
+		D24AC7D523DEF96900154B20 /* LiveLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7D423DEF96900154B20 /* LiveLocationService.swift */; };
+		D24AC7D823DEFFB900154B20 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7D723DEFFB900154B20 /* Location.swift */; };
+		D24AC7DD23DF366C00154B20 /* LiveLocationFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7DC23DF366C00154B20 /* LiveLocationFormatter.swift */; };
+		D24AC7E023E0449300154B20 /* LiveLocationStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7DF23E0449300154B20 /* LiveLocationStatusView.swift */; };
+		D24AC7E223E07AA300154B20 /* LiveLocationStatusCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7E123E07AA300154B20 /* LiveLocationStatusCoordinator.swift */; };
+		D24AC7E423E07DCD00154B20 /* LiveLocationStatusFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7E323E07DCD00154B20 /* LiveLocationStatusFeature.swift */; };
+		D24AC7E623E0855A00154B20 /* LiveLocationStatusInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7E523E0855A00154B20 /* LiveLocationStatusInteractor.swift */; };
+		D24AC7E823E0858C00154B20 /* LiveLocationStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7E723E0858C00154B20 /* LiveLocationStatusService.swift */; };
+		D24AC7EA23E0A32700154B20 /* LiveLocationStatusFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AC7E923E0A32700154B20 /* LiveLocationStatusFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +41,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D2482DAC23E2D22B009CD5D0 /* ISSLiveLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSLiveLocationViewController.swift; sourceTree = "<group>"; };
 		D24AC79723DEEA2100154B20 /* ISSRemix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISSRemix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24AC79A23DEEA2100154B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D24AC79C23DEEA2100154B20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D24AC79E23DEEA2100154B20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D24AC7A123DEEA2100154B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D24AC7A323DEEA2300154B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D24AC7A623DEEA2300154B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D24AC7A823DEEA2300154B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24AC7AD23DEEA2300154B20 /* ISSRemixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISSRemixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24AC7B123DEEA2300154B20 /* ISSRemixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSRemixTests.swift; sourceTree = "<group>"; };
 		D24AC7B323DEEA2300154B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D24AC7BC23DEEA8B00154B20 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		D24AC7C823DEEDCF00154B20 /* LiveLocationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationCoordinator.swift; sourceTree = "<group>"; };
+		D24AC7CA23DEF57F00154B20 /* LiveLocationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationInteractor.swift; sourceTree = "<group>"; };
+		D24AC7CD23DEF71D00154B20 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D24AC7D023DEF74F00154B20 /* ISSAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSAPI.swift; sourceTree = "<group>"; };
+		D24AC7D223DEF83900154B20 /* LiveLocationFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationFeature.swift; sourceTree = "<group>"; };
+		D24AC7D423DEF96900154B20 /* LiveLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationService.swift; sourceTree = "<group>"; };
+		D24AC7D723DEFFB900154B20 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		D24AC7DC23DF366C00154B20 /* LiveLocationFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationFormatter.swift; sourceTree = "<group>"; };
+		D24AC7DF23E0449300154B20 /* LiveLocationStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationStatusView.swift; sourceTree = "<group>"; };
+		D24AC7E123E07AA300154B20 /* LiveLocationStatusCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationStatusCoordinator.swift; sourceTree = "<group>"; };
+		D24AC7E323E07DCD00154B20 /* LiveLocationStatusFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationStatusFeature.swift; sourceTree = "<group>"; };
+		D24AC7E523E0855A00154B20 /* LiveLocationStatusInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationStatusInteractor.swift; sourceTree = "<group>"; };
+		D24AC7E723E0858C00154B20 /* LiveLocationStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationStatusService.swift; sourceTree = "<group>"; };
+		D24AC7E923E0A32700154B20 /* LiveLocationStatusFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveLocationStatusFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +107,17 @@
 		D24AC79923DEEA2100154B20 /* ISSRemix */ = {
 			isa = PBXGroup;
 			children = (
+				D24AC7D623DEFF9000154B20 /* Models */,
+				D24AC7CF23DEF73300154B20 /* ISSAPI */,
+				D24AC7CC23DEF66100154B20 /* Network */,
+				D24AC7C323DEED2E00154B20 /* LiveLocation */,
+				D24AC7DE23E032B300154B20 /* LiveLocationStatus */,
 				D24AC79A23DEEA2100154B20 /* AppDelegate.swift */,
 				D24AC79C23DEEA2100154B20 /* SceneDelegate.swift */,
-				D24AC79E23DEEA2100154B20 /* ViewController.swift */,
-				D24AC7A023DEEA2100154B20 /* Main.storyboard */,
 				D24AC7A323DEEA2300154B20 /* Assets.xcassets */,
 				D24AC7A523DEEA2300154B20 /* LaunchScreen.storyboard */,
 				D24AC7A823DEEA2300154B20 /* Info.plist */,
+				D24AC7BC23DEEA8B00154B20 /* AppCoordinator.swift */,
 			);
 			path = ISSRemix;
 			sourceTree = "<group>";
@@ -97,6 +129,56 @@
 				D24AC7B323DEEA2300154B20 /* Info.plist */,
 			);
 			path = ISSRemixTests;
+			sourceTree = "<group>";
+		};
+		D24AC7C323DEED2E00154B20 /* LiveLocation */ = {
+			isa = PBXGroup;
+			children = (
+				D2482DAC23E2D22B009CD5D0 /* ISSLiveLocationViewController.swift */,
+				D24AC7C823DEEDCF00154B20 /* LiveLocationCoordinator.swift */,
+				D24AC7CA23DEF57F00154B20 /* LiveLocationInteractor.swift */,
+				D24AC7D423DEF96900154B20 /* LiveLocationService.swift */,
+				D24AC7DC23DF366C00154B20 /* LiveLocationFormatter.swift */,
+				D24AC7D223DEF83900154B20 /* LiveLocationFeature.swift */,
+			);
+			path = LiveLocation;
+			sourceTree = "<group>";
+		};
+		D24AC7CC23DEF66100154B20 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D24AC7CD23DEF71D00154B20 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D24AC7CF23DEF73300154B20 /* ISSAPI */ = {
+			isa = PBXGroup;
+			children = (
+				D24AC7D023DEF74F00154B20 /* ISSAPI.swift */,
+			);
+			path = ISSAPI;
+			sourceTree = "<group>";
+		};
+		D24AC7D623DEFF9000154B20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D24AC7D723DEFFB900154B20 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D24AC7DE23E032B300154B20 /* LiveLocationStatus */ = {
+			isa = PBXGroup;
+			children = (
+				D24AC7DF23E0449300154B20 /* LiveLocationStatusView.swift */,
+				D24AC7E123E07AA300154B20 /* LiveLocationStatusCoordinator.swift */,
+				D24AC7E523E0855A00154B20 /* LiveLocationStatusInteractor.swift */,
+				D24AC7E723E0858C00154B20 /* LiveLocationStatusService.swift */,
+				D24AC7E923E0A32700154B20 /* LiveLocationStatusFormatter.swift */,
+				D24AC7E323E07DCD00154B20 /* LiveLocationStatusFeature.swift */,
+			);
+			path = LiveLocationStatus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +264,6 @@
 			files = (
 				D24AC7A723DEEA2300154B20 /* LaunchScreen.storyboard in Resources */,
 				D24AC7A423DEEA2300154B20 /* Assets.xcassets in Resources */,
-				D24AC7A223DEEA2100154B20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +281,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24AC79F23DEEA2100154B20 /* ViewController.swift in Sources */,
+				D24AC7D123DEF74F00154B20 /* ISSAPI.swift in Sources */,
+				D24AC7CB23DEF57F00154B20 /* LiveLocationInteractor.swift in Sources */,
+				D24AC7E423E07DCD00154B20 /* LiveLocationStatusFeature.swift in Sources */,
+				D24AC7D323DEF83900154B20 /* LiveLocationFeature.swift in Sources */,
+				D2482DAD23E2D22B009CD5D0 /* ISSLiveLocationViewController.swift in Sources */,
+				D24AC7E023E0449300154B20 /* LiveLocationStatusView.swift in Sources */,
+				D24AC7DD23DF366C00154B20 /* LiveLocationFormatter.swift in Sources */,
+				D24AC7CE23DEF71D00154B20 /* Network.swift in Sources */,
+				D24AC7BD23DEEA8B00154B20 /* AppCoordinator.swift in Sources */,
+				D24AC7EA23E0A32700154B20 /* LiveLocationStatusFormatter.swift in Sources */,
+				D24AC7C923DEEDCF00154B20 /* LiveLocationCoordinator.swift in Sources */,
+				D24AC7D523DEF96900154B20 /* LiveLocationService.swift in Sources */,
 				D24AC79B23DEEA2100154B20 /* AppDelegate.swift in Sources */,
+				D24AC7D823DEFFB900154B20 /* Location.swift in Sources */,
+				D24AC7E823E0858C00154B20 /* LiveLocationStatusService.swift in Sources */,
+				D24AC7E623E0855A00154B20 /* LiveLocationStatusInteractor.swift in Sources */,
 				D24AC79D23DEEA2100154B20 /* SceneDelegate.swift in Sources */,
+				D24AC7E223E07AA300154B20 /* LiveLocationStatusCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D24AC7A023DEEA2100154B20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D24AC7A123DEEA2100154B20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D24AC7A523DEEA2300154B20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
